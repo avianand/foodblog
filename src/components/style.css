@@ -1,0 +1,39 @@
+.container {
+  justify-content: space-between;
+  display: flex;
+}
+.navbar-logo {
+}
+.carousel {
+  margin: "5em";
+}
+.item {
+  flex-grow: 1; /* default 0 */
+}
+.media {
+  padding: 5em;
+}
+.navbar {
+  margin: 20px;
+  box-shadow: aqua;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#responsive-navbar-nav {
+  display: none;
+}
+.jumbotron {
+  background: url("https://www.freewpheaders.com/wp-content/gallery/food-gallery/burger-sandwich-header.jpg")
+    center center / cover no-repeat;
+}
+.j-para {
+  color: white;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
